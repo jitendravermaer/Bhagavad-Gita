@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/verse-card-bg.png">
+    <title>Bhagavad Geeta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🕉️ भगवद्गीता</h1>
+            <div class="sanskrit-title">श्रीमद्भगवद्गीता</div>
+            <p>The eternal dialogue between Prince Arjuna and Lord Krishna on the battlefield of Kurukshetra - A
+                timeless guide to dharma, duty, and spiritual wisdom</p>
+        </div>
+
+        <div class="language-selector">
+            <button class="lang-btn active" onclick="changeLanguage('english')">English</button>
+            <button class="lang-btn" onclick="changeLanguage('hindi')">हिंदी</button>
+            <button class="lang-btn" onclick="changeLanguage('sanskrit')">संस्कृत</button>
+        </div>
+
+        <div class="chapters-grid" id="chaptersGrid">
+            <!-- Chapters will be populated by JavaScript -->
+        </div>
+
+        <div class="stats-section">
+            <h2>Bhagavad Gita Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">Chapters</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">700</div>
+                    <div class="stat-label">Verses</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Main Paths</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Wisdom</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
