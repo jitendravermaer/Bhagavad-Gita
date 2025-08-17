@@ -37,14 +37,14 @@ body {
 
 .header .sanskrit-title {
     font-size: 1.8rem;
-    color: #d2691e;
+    color: #000000;
     margin-bottom: 15px;
     font-style: italic;
 }
 
 .header p {
     font-size: 1.2rem;
-    color: #666;
+    color: #000000;
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
@@ -219,13 +219,14 @@ body {
 }
 
 .stats-section {
-    background: linear-gradient(45deg, #ff6b35, #ffd700);
+    background: url("images/profile6.jpg") center/cover no-repeat;
     color: white;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
     margin-top: 40px;
 }
+
 
 .stats-grid {
     display: grid;
@@ -314,4 +315,142 @@ body {
 
 .nav-btn:hover {
     transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+
+.image-gallery {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.image-gallery h2 {
+    font-size: 2rem;
+    color: #ff6b35;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+    border-radius: 15px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.08);
+}
+
+.header {
+    margin-bottom: 40px;
+    padding: 100px 20px;
+    /* bigger padding for hero look */
+    border-radius: 15px;
+    background: url("images/profile1.jpg") center/cover no-repeat;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Dark overlay to keep text readable */
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(253, 253, 253, 0.45);
+    z-index: 1;
+}
+
+
+
+/* 🔹 Responsive adjustments */
+@media (max-width: 992px) {
+    .header {
+        padding: 80px 15px;
+    }
+
+    .header h1 {
+        font-size: 2.2rem;
+    }
+
+    .header .sanskrit-title {
+        font-size: 1.4rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 20px 10px;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header .sanskrit-title {
+        font-size: 1.2rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .gallery-grid {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 20px;
+        perspective: 100px;
+    }
+
+    .gallery-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .gallery-grid img {
+        flex: 0 0 auto;
+        height: 120px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+        scroll-snap-align: center;
+        transition: transform 0.4s ease;
+    }
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #ff8c00 0%, #f7931e 25%, #ffd700 50%, #ff6b35 75%, #ff4500 100%);
 }
