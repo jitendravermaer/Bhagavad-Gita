@@ -3,6 +3,11 @@ An interactive, **multi-lingual web application** designed to be a user-friendly
 It offers a **structured**, **engaging**, and **accessible** way to explore all 18 chapters, with summaries, key teachings, and the **full text of each verse** in multiple languages.
 
 ---
+![Bhagavad Gita Cover](images/profile1.jpg)
+
+![Krishna and Radha](images/profile6.jpg)
+
+---
 
 ## ✨ Features
 
@@ -63,6 +68,7 @@ It offers a **structured**, **engaging**, and **accessible** way to explore all 
 ## 📂 Project Structure
 
 ```
+
 Bhagavad-Gita/
 ├── index.html     # Homepage with interactive chapter grid
 ├── styles.css     # Global styles and responsive layouts
@@ -70,7 +76,8 @@ Bhagavad-Gita/
 ├── chapters/      # (Optional) Individual chapter HTML/JSON files
 ├── images/        # Images, icons, and other static resources
 └── LICENSE        # MIT License
-```
+
+````
 
 ---
 
@@ -81,12 +88,12 @@ Bhagavad-Gita/
    ```bash
    git clone https://github.com/your-username/bhagavad-gita-guide.git
    cd bhagavad-gita-guide
-   ```
+````
 
 2. **Open in Browser**
 
-   - Simply open `index.html` in your favorite browser.
-   - No build steps required (pure HTML, CSS, and JS).
+   * Simply open `index.html` in your favorite browser.
+   * No build steps required (pure HTML, CSS, and JS).
 
 ---
 
@@ -96,14 +103,17 @@ Contributions are welcome and appreciated! 🙌
 
 1. **Fork the Project**
 2. **Create a Feature Branch**
+
    ```bash
    git checkout -b feature/AmazingFeature
    ```
 3. **Commit Changes**
+
    ```bash
    git commit -m "Add AmazingFeature"
    ```
 4. **Push to Branch**
+
    ```bash
    git push origin feature/AmazingFeature
    ```
@@ -119,7 +129,9 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ## 🙏 Acknowledgements
 
-- The timeless wisdom of the **Bhagavad Gita** ✨
-- Sanskrit, Hindi, and English translators who made this knowledge accessible
-- Open-source community for inspiration and tools
+* The timeless wisdom of the **Bhagavad Gita** ✨
+* Sanskrit, Hindi, and English translators who made this knowledge accessible
+* Open-source community for inspiration and tools
 
+```
+```
