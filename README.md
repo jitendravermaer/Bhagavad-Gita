@@ -88,7 +88,7 @@ Bhagavad-Gita/
    ```bash
    git clone https://github.com/your-username/bhagavad-gita-guide.git
    cd bhagavad-gita-guide
-````
+
 
 2. **Open in Browser**
 
